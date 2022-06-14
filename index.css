@@ -1,0 +1,148 @@
+
+body{
+    background-color: white;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* TOCAR ESTO LUEGO */
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* FIRST SECTION*/
+
+.presentation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.title{    
+    display: flex;
+    flex-direction: column;
+    color: #50214F;
+    height: 50%;
+    width: 35%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: -35px;
+}
+
+.title h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0px;
+    margin-bottom: -25px;
+}
+
+.title p{
+    color: #50214F;
+    font-size: 15px;
+    margin-left: auto;
+}
+
+
+.star-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #F7F2F8;
+    width: 500px;
+    height: 25px;
+    max-width: 500px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:  #50214F;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.fa-star{
+    color: #F2CB72;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.star-calification{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.star1{
+    margin-left: 0px;
+}
+
+.star2{
+    margin-left: 30px;
+}
+
+.star3{
+    margin-left: 60px;
+}
+
+/*SECOND SECTION*/
+
+.user-calification{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+
+.user-photo-name{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+.pic{
+    height: 50px;
+    border-radius: 30px;
+}
+
+article{
+    display: flex; 
+    background-color: #652164;
+    height: 200px;
+    width: 325px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-direction: column;
+}
+
+.user-name-verification{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 13px;
+    margin-left: -15px;
+    margin-bottom: 10px;
+}
+
+.a{
+    color: white;
+}
+
+.b{
+    color: #E058AB;
+}
+
+p{
+    font-size: 10px;
+    color: white;
+    margin: 40px 20px 0px 20px;    
+}
